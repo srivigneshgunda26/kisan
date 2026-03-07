@@ -1,0 +1,26 @@
+StateName,DistrictName,BlockName,Season,Sector,Category,Crop,QueryType,QueryText,KccAns
+UTTAR PRADESH,AGRA,ETMADPUR,NA,HORTICULTURE,Vegetables,Potato,Plant Protection,Which medicine should be used to control blight disease in potato?,Use Mancozeb or Metalaxyl fungicide spray at 15 day intervals
+UTTAR PRADESH,AGRA,KHERAGARH,NA,AGRICULTURE,Cereals,Wheat,Government Schemes,Information About Pradhan Mantri kisan samman nidhi yojana,Farmer can register himself on PM Kisan portal or can contact local agriculture office
+UTTAR PRADESH,AGRA,KHERAGARH,NA,AGRICULTURE,Cereals,Wheat,Weather,Farmer asked query on Weather,Check local weather forecast and plan irrigation accordingly
+UTTAR PRADESH,AGRA,BARI,NA,AGRICULTURE,Others,Others,Government Schemes,Information related to new registration in PM Kisan,Visit PM Kisan portal or contact local agriculture department
+UTTAR PRADESH,AGRA,KHANDAULI,NA,AGRICULTURE,Vegetables,Potato,Plant Protection,Farmer asked query on Weather,Monitor weather conditions for disease outbreak
+UTTAR PRADESH,AGRA,ACHHNERA,NA,HORTICULTURE,Vegetables,Potato,Plant Protection,Information about blight disease problem in potato,Use Mancozeb or Metalaxyl fungicide spray at 15 day intervals
+UTTAR PRADESH,AGRA,KHANDAULI,NA,AGRICULTURE,Cereals,Wheat,Weather,Farmer asked query on Weather,Plan sowing based on weather forecast
+UTTAR PRADESH,AGRA,ACHHNERA,NA,HORTICULTURE,Vegetables,Potato,Plant Protection,Advice on aphid pest problem in potato,Use Imidacloprid 17.8 SL at 0.3 ml per liter of water
+UTTAR PRADESH,AGRA,KHANDAULI,NA,AGRICULTURE,Cereals,Wheat,Weather,Farmer asked query on Weather,Ensure proper drainage during rainy season
+UTTAR PRADESH,AGRA,ACHHNERA,NA,HORTICULTURE,Vegetables,Potato,Plant Protection,Farmer asked query on Weather,Avoid irrigation during humid weather to prevent disease
+UTTAR PRADESH,AGRA,ETMADPUR,NA,AGRICULTURE,Cereals,Wheat,Weed Management,Information about wheat weed control,Use 2-4-D or Sulfosulfuron for broad leaf weed control
+UTTAR PRADESH,AGRA,SADAR,NA,AGRICULTURE,Cereals,Wheat,Plant Protection,Information about the control of diseases,For rust disease use Propiconazole at 0.1 percent spray
+UTTAR PRADESH,AGRA,ACHHNERA,NA,HORTICULTURE,Vegetables,Potato,Fertilizer Use and Availability,Regarding information related to fertilizer availability,Contact local fertilizer dealer or agriculture department
+UTTAR PRADESH,AGRA,SADAR,NA,AGRICULTURE,Cereals,Wheat,Plant Protection,Advice on aphid pest problem in wheat,Use Dimethoate 30 EC at 1.5-2 ml per liter of water
+UTTAR PRADESH,AGRA,ACHHNERA,NA,HORTICULTURE,Vegetables,Potato,Plant Protection,Information about blight disease problem in potato,Apply Bordeaux mixture or Copper oxychloride spray
+MUSTARD,NA,NA,Rabi,AGRICULTURE,Oilseeds,Mustard,Plant Protection,How to control aphids in mustard?,Spray Dimethoate 30 EC at 2 ml per liter or Imidacloprid 17.8 SL at 0.5 ml per liter
+TOMATO,NA,NA,Kharif,HORTICULTURE,Vegetables,Tomato,Plant Protection,What is the treatment for leaf spot in tomato?,Use Mancozeb 75 WP at 2.5 g per liter or Chlorothalonil spray
+COTTON,NA,NA,Kharif,AGRICULTURE,Cash Crops,Cotton,Plant Protection,Suggest pesticide for whitefly in cotton,Apply Thiamethoxam 25 WG at 0.2 g per liter or Acetamiprid spray
+BRINJAL,NA,NA,Kharif,HORTICULTURE,Vegetables,Brinjal,Plant Protection,How to prevent fruit borer in brinjal?,Use Spinosad 45 SC at 0.3 ml per liter or install pheromone traps
+MAIZE,NA,NA,Kharif,AGRICULTURE,Cereals,Maize,Fertilizer Use and Availability,What fertilizer is recommended during flowering in maize?,Apply Urea at 50 kg per acre and Potash at 25 kg per acre during flowering
+PADDY,NA,NA,Kharif,AGRICULTURE,Cereals,Paddy,Plant Protection,How to protect paddy from blast disease?,Spray Tricyclazole 75 WP at 0.6 g per liter or Carbendazim
+COTTON,NA,NA,Kharif,AGRICULTURE,Cash Crops,Cotton,Plant Protection,What is the solution for jassids in cotton?,Use Thiamethoxam or Imidacloprid spray at early infestation
+PM KISAN,NA,NA,NA,GOVERNMENT,Schemes,General,Government Schemes,How to apply for PM Kisan Samman Nidhi scheme?,Visit pmkisan.gov.in and register with Aadhaar or contact local agriculture office
+NEEM OIL,NA,NA,NA,AGRICULTURE,Organic,General,Plant Protection,What is the dosage of neem oil for aphids?,Use Neem oil at 3-5 ml per liter of water with soap solution
+POTATO,NA,NA,Rabi,HORTICULTURE,Vegetables,Potato,Plant Protection,How to treat blight in potato crops?,Apply Metalaxyl plus Mancozeb at 2.5 g per liter at 10-15 day intervals

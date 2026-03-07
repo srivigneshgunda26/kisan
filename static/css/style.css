@@ -1,0 +1,302 @@
+/* Custom Styles for Kisan Call Centre */
+
+:root {
+    --primary-green: #2E7D32;
+    --light-green: #4CAF50;
+    --dark-green: #1B5E20;
+    --accent-orange: #FF9800;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--light-green) 100%);
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 600;
+}
+
+/* Stat Cards */
+.stat-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.stat-content h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-content p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Sample Query Buttons */
+.sample-query-btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sample-query-btn:hover {
+    background: var(--light-green);
+    color: white;
+    border-color: var(--light-green);
+    transform: translateX(5px);
+}
+
+.sample-query-btn .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sample-query-btn .category {
+    font-size: 11px;
+    color: #666;
+    display: block;
+    margin-top: 3px;
+}
+
+.sample-query-btn:hover .category {
+    color: rgba(255,255,255,0.9);
+}
+
+/* Answer Content */
+.answer-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.answer-content strong {
+    color: #2E7D32;
+    font-weight: 600;
+}
+
+.answer-content em {
+    font-style: italic;
+    color: #555;
+}
+
+.answer-content ol, .answer-content ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.answer-content li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.answer-content p {
+    margin-bottom: 15px;
+}
+
+.answer-content ul li {
+    list-style-type: disc;
+}
+
+.answer-content ol li {
+    list-style-type: decimal;
+}
+
+/* Entry Cards */
+.entry-card {
+    background: #f8f9fa;
+    border-left: 4px solid var(--light-green);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.entry-card .question {
+    font-weight: 600;
+    color: var(--primary-green);
+    margin-bottom: 8px;
+}
+
+.entry-card .answer {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.entry-card .metadata {
+    font-size: 12px;
+    color: #888;
+}
+
+.entry-card .badge {
+    margin-right: 5px;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+}
+
+.btn-success:hover {
+    background-color: var(--primary-green);
+    border-color: var(--primary-green);
+}
+
+/* Loading Animation */
+#loadingIndicator {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Results Animation */
+#resultsSection {
+    animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Chart Containers */
+canvas {
+    max-height: 300px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .stat-card {
+        margin-bottom: 15px;
+    }
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Accordion */
+.accordion-button:not(.collapsed) {
+    background-color: var(--light-green);
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: var(--light-green);
+}
+
+/* Table */
+.table-hover tbody tr:hover {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+/* Form Controls */
+.form-control:focus {
+    border-color: var(--light-green);
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--light-green);
+    border-color: var(--light-green);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light-green);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-green);
+}
